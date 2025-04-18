@@ -4,9 +4,9 @@ import random
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
-title = "1F07FE" # Playfab Title ID
-secretkey = "493XBEYGBABQASGMRTT3FOD8OHA37MBYEIUD3FHNEUUSKS6TEJ" # Playfab Secret Key
-applab = "OC|9534249813309656|f764b79bffa76eb484904d5b0afd1007" # App Lab ID
+title = "10E811" # Playfab Title ID
+secretkey = "HJ5KXCYPU7OXIR1SWJUXDZZGSRQKWZ1N7ENA47GMQYZEA5WP3F" # Playfab Secret Key
+applab = "OC|9410083462446679|bba433dd1bcb002146fec2c4c17581f1" # App Lab ID
 
 def auth():
     return {"content-type": "application/json","X-SecretKey": secretkey}
